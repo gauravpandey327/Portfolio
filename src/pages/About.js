@@ -170,7 +170,7 @@ const About = () => {
                     I'm Gaurav Pandey, a passionate Python Developer specializing in Flask, Generative AI, RAG, and PostgreSQL. 
                     I focus on developing advanced AI solutions, including LLM-powered systems, to tackle real-world challenges with innovation and precision.
                     </p>
-                    <div className="contact-info">
+                    <div className="contact-info-about">
                         <p><strong>Email:</strong> gaurav1237890@gmail.com</p>
                         <p><strong>Phone:</strong> +91-7017176107</p>
                         <p><strong>Location:</strong> Noida, Uttar Pradesh 201301</p>

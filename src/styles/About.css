@@ -58,7 +58,7 @@
     max-width: 800px;
 }
 
-.contact-info {
+.contact-info-about {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -69,13 +69,13 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
-.contact-info p {
+.contact-info-about p {
     margin: 0;
     font-size: 1.05rem;
     color: #4b5563;
 }
 
-.contact-info strong {
+.contact-info-about strong {
     color: #1e40af;
     margin-right: 8px;
 }
@@ -342,7 +342,7 @@
         font-size: 1rem;
     }
     
-    .contact-info {
+    .contact-info-about {
         flex-direction: column;
         gap: 10px;
     }

@@ -41,21 +41,22 @@
     justify-content: stretch;       /* Fill container */
 }
 
-.contact-info {
+.contact-info-co {
     max-width: 600px;
     width: 100%;
     margin: 0 auto; /* Ensure it's centered even inside the grid cell */
     background-color: rgb(236, 228, 228);
+    padding: 20px;
 }
 
-.contact-info h2 {
+.contact-info-co h2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
     text-align: center;
-    margin-left: 141px;
+    margin-left: 10px;
 }
 
-.contact-info>p {
+.contact-info-co>p {
     color: var(--text-light);
     margin-bottom: 2rem;
 }
@@ -99,7 +100,6 @@
     margin: 0;                  /* remove any margin */
     height: auto;               /* no fixed height */
     min-height: unset;          /* unset min-height if any */
-    margin-top: 155px;
     margin-right: 35px;
 }
 

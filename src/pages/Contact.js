@@ -15,7 +15,7 @@ const Contact = () => {
 
             <section className="contact-section">
                 <div className={`contact-container ${showForm ? 'two-column' : ''}`}>
-                    <div className="contact-info">
+                    <div className="contact-info-co">
                         <h2>Contact Information</h2>
                         <p>Feel free to reach out through any of these channels:</p>
 
