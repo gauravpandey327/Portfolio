@@ -75,8 +75,8 @@ const HeroSection = () => {
                 <div className="tech-stack">
                     <div className="tech-icon python">Python</div>
                     <div className="tech-icon flask">Flask</div>
-                    <div className="tech-icon langchain">Langchain</div>
-                    <div className="tech-icon langgraph">Langgraph</div>
+                    <div className="tech-icon LangChain">LangChain</div>
+                    <div className="tech-icon LangGraph">LangGraph</div>
                     <div className="tech-icon crewai">CrewAI</div>
                     <div className="tech-icon genai">GenAI</div>
                     <div className="tech-icon docker">Docker</div>

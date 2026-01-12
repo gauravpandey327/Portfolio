@@ -168,7 +168,7 @@
     animation-delay: 0s;
 }
 
-.tech-icon.langchain {
+.tech-icon.LangChain {
     top: 5%;
     left: 73%;
     background-color: #092e20;
@@ -176,7 +176,7 @@
     animation-delay: 0.5s;
 }
 
-.tech-icon.langgraph {
+.tech-icon.LangGraph {
     top: 70%;
     left: 14%;
     background-color: #004482;

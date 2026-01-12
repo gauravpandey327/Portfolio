@@ -12,7 +12,7 @@ const Home = () => {
             <section className="highlight-section">
                 <div className="section-title">
                     <h2>What I Do</h2>
-                    <p>Specializing in AI, Agnetic and Backend Development</p>
+                    <p>Specializing in AI, Agentic and Backend Development</p>
                 </div>
                 <div className="highlight-grid">
                     <div className="highlight-card">
@@ -34,7 +34,7 @@ const Home = () => {
                             <FaDatabase />
                         </div>
                         <h3>DataBase</h3>
-                        <p>Design and implement data pipelines, storage solutions, and search systems using SQL, Postgres, and VectorDB.</p>
+                        <p>Design and implement robust data pipelines, scalable storage solutions, and efficient search systems using SQL, PostgreSQL, and VectorDB.</p>
                     </div>
                 </div>
             </section>
@@ -53,7 +53,7 @@ const Home = () => {
                     <p>B.Tech. Computer Science</p>
                 </div>
                 <div className="stat-item">
-                    <h3>1.5+</h3>
+                    <h3>2</h3>
                     <p>Years of Experience</p>
                 </div>
             </section>

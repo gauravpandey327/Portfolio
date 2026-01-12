@@ -9,6 +9,8 @@ import '../styles/About.css';
 import aiImg from '../assets/projects/RCS.jpg';
 import mlImg from '../assets/projects/imct.jpg';
 import cyImg from '../assets/projects/ftcr.jpg';
+import dhImg from '../assets/projects/dh.jpg';  
+import viImg from '../assets/projects/vi.jpg';
 
 const About = () => {
     const skills = [
@@ -18,6 +20,7 @@ const About = () => {
             skills: [
                 'Python',
                 'Flask',
+                'FastAPI',
                 'Docker',
                 'Linux',
                 'Streamlit',
@@ -29,8 +32,10 @@ const About = () => {
             icon: <SiAccenture />,
             skills: [
                 'Generative AI (GenAI)',
-                'Langchain',
-                'Langgraph',
+                'Agentic Frameworks',
+                'Fine-Tuning',
+                'LangChain',
+                'LangGraph',
                 'CrewAI',
                 'RAG (Retrieval-Augmented Generation)',
                 'LLM (Large Language Models)',
@@ -46,8 +51,9 @@ const About = () => {
                 'SQL',
                 'PostgreSQL',
                 'MySQL',
+                'VectorDB',
                 'PineconeDB',
-                'Elastic Search',
+                'ChromaDB',
                 'Database Management',
                 'Data Processing',
             ],
@@ -56,16 +62,29 @@ const About = () => {
     
     const experiences = [
         {
+            position: 'Engineer',
+            company: 'HL Mando Softech India',
+            duration: 'July 2025 – Present',
+            location: 'Gurugram, India',
+            responsibilities: [
+                'Developed an AI Discrepancy Highlighter to compare master and test 2D engineering brake design drawings using YOLOv11 for parameter localization and DeepseekOCR for extracting dimensions and tolerances.',
+                'Performed model fine-tuning on custom annotated datasets to improve parameter recognition accuracy, achieving 98%+ reliable extraction in complex engineering drawings.',
+                'Designed and built Vaani – Workforce Self-Service AI, a secure HR/IT policy assistant with authentication, data pipelines, ChromaDB semantic retrieval with reranking, and MySQL query guardrails.',
+                'Collaborated with cross-functional teams to deliver AI-driven quality inspection and internal self-service solutions, reducing manual validation and improving operational efficiency.'
+            ],
+        },
+        {
             position: 'Trainee Engineer',
             company: 'Impressico Business Solutions',
-            duration: 'January 2024 – Present',
+            duration: 'January 2024 – June 2025',
             location: 'Noida, India',
             responsibilities: [
-                'Developed a personalized chatbot for the company, delivering tailored responses based on user queries and preferences.',
-                'Processed and organized company data files, creating a pipeline to generate vector embeddings using HuggingFace models, and stored them in PostgreSQL for efficient retrieval.',
-                'Implemented a query processing system where users input their queries, and the chatbot provides accurate, context-aware responses based on the stored embeddings.',
-                'Deployed the solution using Flask for backend handling, ensuring a responsive, interactive user experience.'
-                ],
+                'Designed and developed a personalized internal chatbot using Generative AI, LLMs, and RAG to deliver context-aware and tailored responses based on user queries.',
+                'Built a data ingestion and processing pipeline to clean, preprocess, and generate vector embeddings using HuggingFace models, storing embeddings in PostgreSQL for efficient semantic retrieval.',
+                'Developed an AI Product Recommendation System for electronics data by integrating SQL-based filtering with semantic search to retrieve relevant products.',
+                'Implemented hybrid search by combining structured database queries with vector similarity search, and passed retrieved results to an LLM for personalized product recommendations.',
+                'Developed and deployed Flask-based backend services to handle user queries, orchestrate retrieval pipelines, and ensure a responsive and interactive user experience.'
+            ],
         },
         {
             position: 'Graduate Engineer Trainee (Internship)',
@@ -142,14 +161,26 @@ const About = () => {
     
     const projects = [
         {
+            name: 'AI Discrepancy Highlighter',
+            technologies: 'Python, YOLOv11, DeepseekOCR, OpenCV, Label Studio, Model Fine-Tuning, Coordinate Mapping',
+            description: 'Built an AI-based discrepancy detection system to compare master and test 2D engineering drawings by localizing parameters, extracting dimensions and tolerances, fine-tuning OCR models on annotated datasets, and highlighting deviations with 98%+ recognition accuracy.',
+            image: dhImg
+        },
+        {
+            name: 'Vaani – Workforce Self-Service AI',
+            technologies: 'Python, Flask, LangChain, ChromaDB, HuggingFace Transformers, BGE Reranker, RAG, MySQL, MinIO, Prompt & SQL Guardrails',
+            description: 'Developed a secure workforce self-service AI assistant for HR/IT policy retrieval, implementing authenticated access, semantic document pipelines, ranked retrieval with reranking, MySQL query guardrails, and employee-wise audit logging for reliable enterprise usage.',
+            image: viImg
+        },
+        {
             name: 'AI Product Recommendation System',
-            technologies: 'Python, Flask, Langchain, Beautifulsoup, Huggingface model, Openai, PostgreSQL, Streamlit, Docker',
+            technologies: 'Python, Flask, LangChain, Beautifulsoup, Huggingface model, Openai, PostgreSQL, Streamlit, Docker',
             description: 'Built a RAG application by scraping Amazon data, handling CAPTCHA, applying hybrid chunking for text processing, and using hybrid search for efficient retrieval and augmented generation over the dataset.',
             image: aiImg
         },
         {
             name: "Impressico's Chatbot",
-            technologies: 'Python, Flask, Langchain, PGvector, Beautifulsoup, OpenAI, PostgreSQL, Docker',
+            technologies: 'Python, Flask, LangChain, PGvector, Beautifulsoup, OpenAI, PostgreSQL, Docker',
             description: 'Developed a personalized chatbot for the company, delivering tailored responses based on user queries and preferences. Deployed the solution using Flask for backend handling, ensuring a responsive, interactive user experience.',
             image: mlImg,
         },
@@ -167,8 +198,8 @@ const About = () => {
                 <div className="about-content">
                     <h1>About Me</h1>
                     <p className="about-intro">
-                    I'm Gaurav Pandey, a passionate Python Developer specializing in Flask, Generative AI, RAG, and PostgreSQL. 
-                    I focus on developing advanced AI solutions, including LLM-powered systems, to tackle real-world challenges with innovation and precision.
+                    I’m Gaurav Pandey, an AI Engineer with 2+ years of hands-on experience building production-grade AI applications. I have proven expertise in designing end-to-end AI solutions, including Retrieval-Augmented Generation (RAG), agentic workflows, and model fine-tuning. 
+                    I have delivered industry-impacting solutions achieving 98%+ accuracy, along with secure enterprise self-service assistants. I bring a strong background in Python, Flask, FastAPI, LangChain, LangGraph, CrewAI, and agentic architectures, with deep experience in Generative AI (LLMs, RAG, Fine-Tuning), databases, and Docker, consistently transforming complex business problems into scalable, reliable, production-ready AI products.
                     </p>
                     <div className="contact-info-about">
                         <p><strong>Email:</strong> gaurav1237890@gmail.com</p>
