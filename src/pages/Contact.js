@@ -24,7 +24,7 @@ const Contact = () => {
                                 <FaMapMarkerAlt className="contact-icon" />
                                 <div>
                                     <h3>Location</h3>
-                                    <p>Noida, Uttar Pradesh 201301</p>
+                                    <p>Gurgaon, Uttar Pradesh 122011</p>
                                 </div>
                             </div>
 
